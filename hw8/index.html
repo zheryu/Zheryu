@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WDD Homework 8</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+        </script> 
+        <script src = "assets/js/script.js"></script>
+    </head>
+    <body>
+        <!-- Sidebar Hamburger Icon -->
+        <div id = "sidebar-button">
+            <a id="nav-toggle">
+                <span></span>
+            </a>
+        </div>
+
+        <!-- Sidebar -->
+        <nav class = "sidebar-container">
+            <!-- Question 1: Sidebar Code Here -->
+			<ul>
+				<a href = "#carousel-section">
+					<li class="sidebar-item">Home</li>
+				</a>
+				<a href = "#name-section">
+					<li class="sidebar-item">Name</li>	
+				</a>
+				<a href = "#major-section">
+					<li class="sidebar-item">Major</li>
+				</a>				
+				<a href = "#fact-section">
+					<li class="sidebar-item">Fact</li>
+				</a>				
+			</ul>
+            <!-- End Question 1 Here (Use as many lines as needed, but don't add code below this point)-->
+        </nav>
+
+        <!-- Page Wrapper, Consisting of All the Sections -->
+        <div class = "page-wrapper">
+            <!-- Carousel Section -->
+            <section class = "section" id = "carousel-section"> 
+                <div class = "carousel-container">
+                <!-- Question 2: Carousel Code Here -->
+					<div id="carousel">
+						<div class="carousel-item">
+							<div class="quote">Speak softly, and carry a big stick
+								<div class="author">Theodore Roosevelt</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="quote">Put that cookie down!
+								<div class="author">Arnold Schwartzenegger</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="quote">Perfection is moving goal...Can chase, cannot catch
+								<div class="author">Abathur</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="quote">and my axe
+								<div class="author">Gimli</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="quote">Never trust a quote on the internet
+								<div class="author">Abraham Lincoln</div>
+							</div>
+						</div>
+					</div>
+
+                <!-- End Question 2 Here (Use as many lines as needed, but don't add code below this point)-->
+                    <div id="carousel-prev">
+                        <img class="img-scaled" src="assets/img/arrowleft.png" />
+                    </div>
+                    <div id="carousel-next">
+                        <img class="img-scaled" src="assets/img/arrowright.png" />
+                    </div>
+                </div>
+            </section>
+            <!-- Name Section -->
+            <section class = "section" id = "name-section">
+                <div class = "text" id = "name-text">
+                    I am Eric Zhou
+                </div>
+            </section>
+            <!-- Major Section -->
+            <section class = "section" id = "major-section">
+                <div class = "text" id = "major-text">
+                    I am majoring in EECS
+                </div>
+            </section>
+            <!-- Random Fact Section -->
+            <section class = "section" id = "fact-section">
+                <div class = "text" id = "fact-text">
+                    My favorite fruit is Lychee
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
